@@ -1,0 +1,14 @@
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#hero {
+    padding-bottom: 180px;
+    padding-top: 20px;
+}
+
+.section-title p {
+    padding-bottom: 0;
+}

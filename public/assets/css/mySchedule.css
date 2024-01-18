@@ -1,0 +1,242 @@
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.active-button{
+    font-weight: bold;
+    /* text-shadow: 2px 2px #ff0000; */
+}
+
+.mySchedule-card{
+    background: #FFFAEF;
+    border: 2px solid #F1DAAA;
+    border-right: 5rem solid #FBDA5B;
+    border-radius: 20px;
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.mySchedule-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.mySchedule-card .box-shadow{
+    /* position: relative; */
+    width: 90%;
+    height: 2.5rem;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.02%;
+    border-radius: 10px;
+
+    color: #FFFFFF;
+    box-shadow: inset 0px -50px 0px 0px rgba(0,0,0,0.3);
+}
+
+.empty-info{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empty-info-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.empty-info-text h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 115.02%;
+    
+    color: #000000;
+}
+
+.empty-info-text p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115.02%;
+    
+    color: #ACACAC;
+}
+
+.empty-title{
+    margin-top: 100px;
+}
+
+.margin-bottom{
+    margin-bottom: 200px;
+}
+
+
+.join-button a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+
+    /* or 43px */
+    letter-spacing: 0.4em;
+
+    color: #6B5C21;
+}
+
+.width-auto{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    margin-left: 400px;
+
+    /* or 43px */
+    letter-spacing: 0.4em;
+
+    color: #6B5C21;
+
+    transform: rotate(90deg);
+    
+}
+
+.add-jadwal{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    
+    color: #6B5C21;
+}
+
+/* Modal CSS */
+
+.bg-add-modal{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.add-modal-content{
+    width: 900px;
+    height: 700px;
+    background: #FFFAEF;
+    border: 3px solid #F1DAAA;
+    border-radius: 10px;
+    /* padding: 20px; */
+    position: relative;
+}
+
+.add-modal-content h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 115.02%;
+
+    /* or 41px */
+    letter-spacing: 0.02em;
+
+    color: #87B7AB;
+    text-align: center;
+}
+
+.add-modal-content .close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    color: #848484;
+    cursor: pointer;
+}
+
+
+.add-modal-content form{
+    padding: 25px 85px;
+    gap: 0;
+}
+
+.add-modal-content form label{
+    background: #FFFFFF;
+    border: 2px solid #F7E4BE;
+    /* border-right: 3px solid #F7E4BE; */
+    border-radius: 5px 0px 0px 5px;
+    padding: 2.5px 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #848484;
+}
+
+.add-modal-content form input{
+    position: relative;
+    padding: 2.5px 15px;
+    border: 2px solid #F7E4BE;
+    border-left: none;
+    left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.add-modal-content form textarea{
+    position: relative;
+    padding: 2.5px 15px;
+    border: 2px solid #F7E4BE;
+    left: -5px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.add-modal-content form .box-right{
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    position: relative;
+    border-left: none;
+    left: -10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.add-modal-content form .description-box > input{
+    border-left: 2px solid #F7E4BE;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.add-modal-content form .time-box{
+    width: 60%;
+}
+
+/* End Modal CSS */
